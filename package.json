@@ -23,6 +23,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -46,8 +48,8 @@
       "last 1 safari version"
     ]
   },
-
-  "homepage": "https://fatiimhh.github.io/fatima.github.io/"
+  "homepage": "https://fatiimhh.github.io/",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
 }
-
-
