@@ -40,7 +40,8 @@ function NavBar() {
       <Container>
         
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ms-auto" defaultActiveKey="#home">
+          <Nav className="me-auto" defaultActiveKey="#home">
+            <p className="mynamenav">Fatima BaniSakher</p>
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> About
