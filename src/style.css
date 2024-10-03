@@ -185,6 +185,8 @@ button:focus {
   z-index: 1;
 }
 
+
+
 .navbar-nav .nav-item a::after {
   content: "";
   position: relative;
@@ -321,7 +323,7 @@ button:focus {
 
 .home-about-section {
   position: relative;
-  padding: 70px 0 !important; 
+  padding: 70px 30px !important; 
   text-align: center; 
 }
 
