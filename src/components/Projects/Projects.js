@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import myport from "../../Assets/Projects/myport.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
@@ -13,25 +13,25 @@ function Projects() {
   return (
     <Container fluid className="project-section">
       <Particle />
-     {/* <Container>
+     <Container>
         <h1 className="project-heading">
           my <strong className="purple">projects </strong>...
         </h1>
-        {/*<p style={{ color: "white" }}>
+       <p style={{ color: "white" }}>
          
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={myport}
               isBlog={false}
-              title="***"
-              description="****"
-              ghLink=""
-              demoLink=""
+              title="My Portfolio"
+              description="My portfolio displays my experience and projects. This project was built using JavaScript, React.js, Bootstrap, and Node.js."
+              ghLink="https://github.com/fatiimhh/fatiimhh.github.io"
+              demoLink="https://fatiimhh.github.io/"
             />
           </Col>
-
+ {/*
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
@@ -86,9 +86,9 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col>*/}
         </Row>
-      </Container>*/}
+      </Container>
     </Container>
   );
 }
