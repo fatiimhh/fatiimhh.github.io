@@ -7,7 +7,7 @@ import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import myport from "../../Assets/Projects/myport.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import weatherapp from "../../Assets/Projects/weatherapp.png";
 
 function Projects() {
   return (
@@ -31,18 +31,18 @@ function Projects() {
               demoLink="https://fatiimhh.github.io/"
             />
           </Col>
- {/*
+
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={weatherapp}
               isBlog={false}
-              title="***"
-              description="***"
-              ghLink=""
-              demoLink=""
+              title="Weather App"
+              description="A Weather App, Displays weather data and a 5-day forecast from any city in the world using the (OpenWeatherMap). This project was built using JavaScript, React.js, and Open Weather API"
+              ghLink="https://github.com/fatiimhh/Weather-App?tab=readme-ov-file"
+              demoLink="https://fatiimhh.github.io/Weather-App/"
             />
           </Col>
-
+ {/*
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
