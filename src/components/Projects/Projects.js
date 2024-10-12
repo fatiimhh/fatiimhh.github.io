@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+import admindash from "../../Assets/Projects/admindash.png";
 import myport from "../../Assets/Projects/myport.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import weatherapp from "../../Assets/Projects/weatherapp.png";
@@ -21,14 +21,15 @@ function Projects() {
          
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          
+        <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={myport}
+              imgPath={admindash}
               isBlog={false}
-              title="My Portfolio"
-              description="My portfolio displays my experience and projects. This project was built using JavaScript, React.js, Bootstrap, and Node.js."
-              ghLink="https://github.com/fatiimhh/fatiimhh.github.io"
-              demoLink="https://fatiimhh.github.io/"
+              title="Admin Dashboard"
+              description="React Admin Dashboard, this project was built using React.js for the front-end, JSS for styling, and React Router for navigation. It also features a responsive design and custom components."
+              ghLink="https://github.com/fatiimhh/React-admin-dashboard-"
+              demoLink="https://fatiimhh.github.io/React-admin-dashboard-/"              
             />
           </Col>
 
@@ -42,17 +43,19 @@ function Projects() {
               demoLink="https://fatiimhh.github.io/Weather-App/"
             />
           </Col>
- {/*
+
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={myport}
               isBlog={false}
-              title=""
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="My Portfolio"
+              description="My portfolio displays my experience and projects. This project was built using JavaScript, React.js, Bootstrap, and Node.js."
+              ghLink="https://github.com/fatiimhh/fatiimhh.github.io"
+              demoLink="https://fatiimhh.github.io/"
             />
           </Col>
+ {/*
+         
 
           <Col md={4} className="project-card">
             <ProjectCard
