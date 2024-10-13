@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
+import photog from "../../Assets/Projects/photog.png";
+//import emotion from "../../Assets/Projects/emotion.png";
 import admindash from "../../Assets/Projects/admindash.png";
 import myport from "../../Assets/Projects/myport.png";
-import suicide from "../../Assets/Projects/suicide.png";
+//import suicide from "../../Assets/Projects/suicide.png";
 import weatherapp from "../../Assets/Projects/weatherapp.png";
 
 function Projects() {
@@ -35,6 +35,17 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={photog}
+              isBlog={false}
+              title="Photo Gallery"
+              description="React Photo Gallery, This app uses the Flickr API services. Users can search for photos by keyword, and filter the photos by date taken."
+              ghLink="https://github.com/fatiimhh/photo-gallery"
+              demoLink="https://fatiimhh.github.io/photo-gallery/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={weatherapp}
               isBlog={false}
               title="Weather App"
@@ -54,19 +65,13 @@ function Projects() {
               demoLink="https://fatiimhh.github.io/"
             />
           </Col>
+
+
+
  {/*
          
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
+          
 
           <Col md={4} className="project-card">
             <ProjectCard
