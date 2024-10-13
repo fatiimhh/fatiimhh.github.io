@@ -23,8 +23,7 @@ function Home2() {
             <br />
               <br />Proficient in front-end technologies like
             <b className="purple"> HTML, CSS, JavaScript, and TypeScript </b>with a strong focus on building dynamic interfaces using
-            <b className="purple"> React.js</b> for
-            dynamic interfaces, alongside with a solid understanding of back-end
+            <b className="purple"> React.js</b>, alongside with a solid understanding of back-end
             technologies including, <b className="purple"> Node.js</b>. 
               <i>
                 
