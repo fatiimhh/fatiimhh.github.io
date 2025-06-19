@@ -19,8 +19,17 @@ function Home2() {
               about <span className="purple"> me </span>...
             </h1>
             <p className="home-about-body">
-            Hey there, it's Fatima, a junior software developer from Jordan.👩‍💻
+            Hey there, it's Fatima 👩‍💻, a junior software developer who builds fast, responsive web apps using React.js and AI.
+             Passionate about clean UI, scalable code, and real-world problem solving with automation and OpenAI.
+
+
+ <br /> <br />
+              With a background in translation and a master’s in entrepreneurship.  
+I’ve worked on fintech dashboards, mobile apps, and AI tools — all remotely with teams across the globe.  
+I love building smart, helpful tools using code. &nbsp;
+
             <br />
+           
               <br />Proficient in front-end technologies like
             <b className="purple"> HTML, CSS, JavaScript, and TypeScript </b>with a strong focus on building dynamic interfaces using
             <b className="purple"> React.js</b>, alongside with a solid understanding of back-end
@@ -29,9 +38,7 @@ function Home2() {
                 
               </i>
               <br />
-              <br />
-              Currently, I’m expanding my expertise in Automation and AI Development through my internship, 
-              where I’m learning how to integrate cutting-edge technologies into real-world projects.  &nbsp;
+              
               <i>
                 <b className="purple"> </b> 
                 {" "}

@@ -18,16 +18,16 @@ function AboutCard() {
           {/* Experience 1 */}
           <div className="experience-item">
             <div className="position" onClick={() => toggleDescription(1)}>
-              ➖ Front-End/Web Developer Intern @ <b className="purple">  WelSpot| USA </b>
+              ➖ Front-End/Web Developer Intern @ <b className="purple">  WelSpot (Remote, USA) – Jun 2023 – Sep 2023 </b>
             </div>
             {activeItem === 1 && (
               <div className="description">
                 <p>
-               ▶ Developed and maintained responsive components for a fintech admin dashboard using 
-               React.js, TypeScript, Bootstrap, CSS, SCSS, and HTML. Focused on creating efficient, 
-                scalable solutions for real-time financial data visualization, enhancing user experience and accessibility. </p>
-              <p>▶ Identified and resolved front-end bugs to improve stability
-                 and user experience.</p>
+               ▶ Built and maintained a fintech admin dashboard using React.js, TypeScript, Bootstrap, and SCSS.</p>
+              <p>▶ Collaborated with backend team to connect APIs and optimize data visualization tools.
+                </p>
+                <p>▶ Diagnosed and fixed UI bugs, improving performance and user experience.
+</p>
 
               </div>
             )}
@@ -36,16 +36,17 @@ function AboutCard() {
           {/* Experience 2 */}
           <div className="experience-item">
             <div className="position" onClick={() => toggleDescription(2)}>
-            ➖ Front-End Developer Intern @ <b className="purple"> ENGAGEathon| USA </b> 
+            ➖ Front-End Developer Intern @ <b className="purple"> ENGAGEathon (Remote, USA) – Nov 2023 – May 2024</b> 
             </div>
             {activeItem === 2 && (
               <div className="description">
                 <p>
-                ▶ Developed and maintained front end components for an
-                 Android app using React Native and JavaScript with Expo
+                ▶ Developed mobile app components using React Native, JavaScript, and Expo.
                 </p>
-                <p>▶ Implemented Figma designs into functional and visually
-                consistent user interfaces.</p>
+                <p>▶ Converted Figma designs into pixel-perfect UI while maintaining responsiveness and accessibility.</p>
+                <p>▶ Used GitHub for version control and team collaboration across sprints.
+</p>
+
               </div>
             )}
           </div>
@@ -53,18 +54,18 @@ function AboutCard() {
           {/* Experience 3 */}
           <div className="experience-item">
             <div className="position" onClick={() => toggleDescription(3)}>
-            ➖ Automation and AI Developer Intern @ <b className="purple">  LeDi SEO| USA </b> 
+            ➖ Automation and AI Developer Intern @ <b className="purple">  LeDi SEO (Remote, USA) – Jul 2024 – Apr 2025 </b> 
             </div>
             {activeItem === 3 && (
               <div className="description">
                 <p>
-                ▶ Worked with GoHighLevel software to develop automation solutions,
-                 exploring AI-driven approaches to improve workflows. Developed and automated email and SMS workflows using GHL.
+                ▶ Integrated AI tools (via n8n and APIs) to automate marketing funnels, CRM tasks, and email outreach.
                 </p>
                 <p>
-                ▶ Leveraged Apollo, D7 Lead Finder, and Bulk Email Checker
-                 for efficient lead generation, targeted searches, and email verification
+                ▶ Customized WordPress sites to optimize user experience and lead capture workflows.
                 </p>
+                <p>▶ Improved website performance and SEO rankings through automated audits and content improvements. </p>
+
               </div>
             )}
           </div>
