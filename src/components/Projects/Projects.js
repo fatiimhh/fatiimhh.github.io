@@ -6,7 +6,7 @@ import photog from "../../Assets/Projects/photog.png";
 //import emotion from "../../Assets/Projects/emotion.png";
 import admindash from "../../Assets/Projects/admindash.png";
 import myport from "../../Assets/Projects/myport.png";
-//import suicide from "../../Assets/Projects/suicide.png";
+//import aichatbot from "../../Assets/Projects/aichatbot.png";
 import weatherapp from "../../Assets/Projects/weatherapp.png";
 
 function Projects() {
@@ -21,6 +21,18 @@ function Projects() {
          
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+            imgPath={""} 
+              isBlog={false}
+              title="AI Support Chatbot"
+              description="A simple and responsive customer support chatbot built with React.js, Firebase, and the OpenAI API.
+                          It simulates real-time support conversations using NLP."
+              ghLink="https://github.com/fatiimhh/ai-support-chatbot"
+              demoLink="https://fatiimhh.github.io/ai-support-chatbot/" 
+            />
+          </Col>
           
         <Col md={4} className="project-card">
             <ProjectCard
@@ -78,7 +90,7 @@ function Projects() {
               imgPath={suicide}
               isBlog={false}
               title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+              description=""
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
