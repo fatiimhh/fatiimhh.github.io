@@ -6,8 +6,9 @@ import photog from "../../Assets/Projects/photog.png";
 //import emotion from "../../Assets/Projects/emotion.png";
 import admindash from "../../Assets/Projects/admindash.png";
 import myport from "../../Assets/Projects/myport.png";
-//import aichatbot from "../../Assets/Projects/aichatbot.png";
+import aichatbot from "../../Assets/Projects/aichatbot.png";
 import weatherapp from "../../Assets/Projects/weatherapp.png";
+import aiformvalidator from "../../Assets/Projects/aiformvalidator.png";
 
 function Projects() {
   return (
@@ -22,9 +23,22 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
+
           <Col md={4} className="project-card">
             <ProjectCard
-            imgPath={""} 
+              imgPath={aiformvalidator}
+              isBlog={false}
+              title="AI Form Validator"
+              description="An intelligent React web application that extracts structured tasks (subject, date, time, location, etc.) from natural language input using AI (Cohere API). It also includes voice input, Firebase authentication, real-time saving, search, analytics, and more.
+"
+              ghLink="https://github.com/fatiimhh/ai-form-validator"
+              demoLink="https://fatiimhh.github.io/ai-form-validator/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+            imgPath={aichatbot} 
               isBlog={false}
               title="AI Support Chatbot"
               description="A simple and responsive customer support chatbot built with React.js, Firebase, and the OpenAI API.
