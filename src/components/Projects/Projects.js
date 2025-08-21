@@ -5,9 +5,10 @@ import Particle from "../Particle";
 import photog from "../../Assets/Projects/photog.png";
 //import emotion from "../../Assets/Projects/emotion.png";
 import admindash from "../../Assets/Projects/admindash.png";
+import interviewsim from "../../Assets/Projects/interviewsim.png";
 import myport from "../../Assets/Projects/myport.png";
 import aichatbot from "../../Assets/Projects/aichatbot.png";
-import weatherapp from "../../Assets/Projects/weatherapp.png";
+//import weatherapp from "../../Assets/Projects/weatherapp.png";
 import aiformvalidator from "../../Assets/Projects/aiformvalidator.png";
 
 function Projects() {
@@ -33,6 +34,19 @@ function Projects() {
 "
               ghLink="https://github.com/fatiimhh/ai-form-validator"
               demoLink="https://fatiimhh.github.io/ai-form-validator/"
+            />
+          </Col>
+
+          
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={interviewsim}
+              isBlog={false}
+              title="AI Interview Simulator"
+              description="Practice mock interviews with AI! This web app lets you simulate professional interviews, get instant feedback, and track your progress over time.Technologies used:
+              React.js, JavaScript (ES6+), Tailwind CSS, Groq API, Firebase Authentication (Google Sign-in), Unit Tests using Jest + React Testing Library, Vercel (for hosting & deployment)"
+              ghLink="https://github.com/fatiimhh/ai-interview-simulator"
+              demoLink="https://ai-interview-simulator-beta.vercel.app/"
             />
           </Col>
 
@@ -70,7 +84,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+         {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={weatherapp}
               isBlog={false}
@@ -79,7 +93,7 @@ function Projects() {
               ghLink="https://github.com/fatiimhh/Weather-App?tab=readme-ov-file"
               demoLink="https://fatiimhh.github.io/Weather-App/"
             />
-          </Col>
+          </Col> */}
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -96,7 +110,6 @@ function Projects() {
 
  {/*
          
-
           
 
           <Col md={4} className="project-card">

@@ -5,11 +5,9 @@
 
 This project was built using:
 - React.js
-- Node.js
-- Express.js
+- JavaScript
 - CSS3
 - VsCode
-- Vercel
 
 -------------------------------------------------------------------------
 
