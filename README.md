@@ -28,7 +28,7 @@ This website showcases my projects, skills, and experiences as a developer.
 
 ## 📫 Contact
 - Email: **fatima.mbk00@gmail.com**  
-- LinkedIn: [linkedin.com/in/fatima-mbk](#) *(www.linkedin.com/in/fatima-bani-sakher-4773561b8)*  
+- LinkedIn: [www.linkedin.com/in/fatima-bani-sakher-4773561b8](#) 
 
 
 
